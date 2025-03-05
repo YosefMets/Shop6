@@ -12,7 +12,6 @@ export default defineNuxtConfig({
     ['@nuxtjs/i18n', i18n],
     ['@nuxt/image', image],
     ['@unlok-co/nuxt-stripe', stripe],
-    '@nuxt/scripts'
   ],
 
   // https://devtools.nuxt.com
