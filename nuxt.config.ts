@@ -4,6 +4,19 @@ import { stripe } from './configs/stripe'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+
+  app: {
+    // pageTransition: { name: 'page', mode: 'out-in' },
+    layoutTransition: { name: 'layout', mode: 'out-in' }
+    // baseURL: '.',
+    // buildAssetsDir: './',
+  },
+
+  css: [
+    'assets/css/fonts.css',
+    'assets/css/common.css',
+  ],
+
   // https://nuxt.com/modules
   modules: [
     '@nuxthub/core',
@@ -12,6 +25,7 @@ export default defineNuxtConfig({
     ['@nuxtjs/i18n', i18n],
     ['@nuxt/image', image],
     ['@unlok-co/nuxt-stripe', stripe],
+    '@nuxt/scripts',
   ],
 
   // https://devtools.nuxt.com

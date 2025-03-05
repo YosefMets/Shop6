@@ -1,8 +1,11 @@
 <script setup>
+
 </script>
 
 <template>
-  <h1>Landing page</h1>
+  <div>
+    Terms
+  </div>
 </template>
 
 <style scoped>

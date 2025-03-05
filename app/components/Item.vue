@@ -21,7 +21,7 @@ const brand = computed( () => props.item.B ? db.value?.[props.item.B] : null );
     <p class="it-n" :title="item.N">{{ item.N }} {{ brand?.N }}</p>
 
     <div class="it-pr-wr">
-      <Price :amount="item?.price" class="it-pr" />
+      <Price v-if="item?.price" :amount="item?.price" class="it-pr" />
       <span v-if="item.J" class="it-unt">&#160;{{ $t(item.J) }}</span>
     </div>
 
