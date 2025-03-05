@@ -3,17 +3,17 @@ export const i18n = {
   locales: [
     {
       code: 'en',
-      iso: 'en_EN',
+      iso: 'en',
       N: 'English',
     },
     {
       code: 'ru',
-      iso: 'ru-RU',
+      iso: 'ru',
       N: 'Русский',
     },
     {
       code: 'he',
-      iso: 'he-HE',
+      iso: 'he',
       N: 'עברית',
       dir: 'rtl',
     },
