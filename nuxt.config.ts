@@ -1,6 +1,6 @@
 import { i18n } from './configs/i18n'
 import { image } from './configs/image'
-// import { stripe } from './configs/stripe'
+import { stripe } from './configs/stripe'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     ['@pinia/nuxt', { autoImports: ['defineStore', 'storeToRefs'] }],
     ['@nuxtjs/i18n', i18n],
     ['@nuxt/image', image],
-    // ['@unlok-co/nuxt-stripe', stripe],
+    ['@unlok-co/nuxt-stripe', stripe],
   ],
 
   // https://devtools.nuxt.com
