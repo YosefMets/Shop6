@@ -1,4 +1,4 @@
-<template>
+<template>qwe
   <NuxtRouteAnnouncer />
   <NuxtLoadingIndicator />
   <NuxtPage />
