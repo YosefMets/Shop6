@@ -21,7 +21,12 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-07-30',
 
   // https://hub.nuxt.com/docs/getting-started/installation#options
-  hub: {},
+  hub: {
+    database: true,
+    kv: true,
+    blob: true,
+    cache: true,
+  },
 
   // https://eslint.nuxt.com
   eslint: {
