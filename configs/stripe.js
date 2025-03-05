@@ -8,7 +8,7 @@ export const stripe = {
     // CLIENT
   },
   client: {
-    key: process.env.NUXT_STRIPE_PUBLIC_KEY,
+    key: process.env.STRIPE_PUBLIC_KEY,
     // manualClientLoad: true, // if you want to have control where you are going to load the client
     // your api options override for stripe client side https://stripe.com/docs/js/initializing#init_stripe_js-options
     options: {},
