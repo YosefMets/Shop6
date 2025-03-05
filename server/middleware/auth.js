@@ -45,7 +45,7 @@ const getOrder = async ( customerId, orderId ) => {
 export default defineEventHandler( async (event) => {
 
   const host = getRequestURL(event).host;
-  if ( host !== 'shop2.nuxt.dev') return;
+  // if ( host !== 'shop2.nuxt.dev') return;
 
   const db = hubDatabase();
   let session = {};
