@@ -3,9 +3,7 @@
 </script>
 
 <template>
-  <div>
-    Privacy
-  </div>
+  <Privacy />
 </template>
 
 <style scoped>

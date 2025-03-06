@@ -3,9 +3,7 @@
 </script>
 
 <template>
-  <div>
-    Terms
-  </div>
+  <Terms />
 </template>
 
 <style scoped>

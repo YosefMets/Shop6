@@ -1,7 +1,7 @@
 <script setup>
 const { locale } = useI18n();
 const content = ref(null);
-content.value = await $fetch( `/api/articles/terms/${locale.value}` );
+content.value = await $fetch( `/api/articles/privacy/${locale.value}` );
 </script>
 
 <template>
